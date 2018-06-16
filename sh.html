@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Happy Birthday </title>
+<style>
+	body{border:2px solid pink;}
+	div{font-size: 37px;
+	text-align: center;}
+	p{background-color: pink;}
+	img { width:40%;
+	height:40%;}
+</style>
+</head>
+<body>
+
+<script type="text/javascript">
+	function A(text)
+	{
+    var p = document.getElementById("haha");
+    p.innerHTML = text;
+	}
+
+	function K()
+	{
+		document.getElementById("img1").src="s.jpg"
+	}
+
+	function V()
+	{
+		document.getElementById("img2").src="x.jpg"
+	}
+</script>
+<div>
+<p><strong>Happy Birthday My Freind</strong></p>
+</div>
+
+<img src="a.jpg" onclick="K()" id="img1">
+<img src="b.jpg" onclick="V()" id="img2">
+
+
+<ul>
+
+<button id="para1" onclick="A('Your birthday has already passed, but I will congratulate you again.');">Click</button>
+<p id="haha">Happy Birthday My Freind</p>
+
+<p>Let me give you a compliment. Your cheek is so cute.</p></ul>
+<button onclick="document.getElementById('myImage').src='c.jpg'">!</button>
+<img id="myImage" src="d.jpg" style="width:200px">
+<button onclick="document.getElementById('myImage').src='d.jpg'">!</button>
+
+<ul><p>Choose a gift you want!</p>
+<select onchange="alert('Im not going to buy it for you. pupki!');">
+  <option>Snacks</option>
+  <option>cake</option>
+  <option>chicken</option>
+  <option>Game</option>
+</select></ul>
+
+</body>
+</html>
